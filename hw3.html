@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="info"></p>
+    <p name="email"></p>
+    <p class="rollno"></p>
+    <p class="myClass">
+    <p id="phone_number"></p>
+    <p class="yourClass"></p>
+</body>
+<script >
+    let username="Rijan"
+    let email ="chudalrijan@gmail.com"
+    let rollno="36"
+    var phone_number="9847776887"
+    var address="bhaktapur"
+    
+    let name = document.getElementById('info').innerHTML=username;
+    let gmail = document.getElementsByName("email").innerHTML=email;
+    let symbol = document.getElementsByClassName("rollno").innerHTML=rollno;
+    let call = document.querySelector("myClass").innerHTML=phone_number;
+    let location = document.querySelectorAll("yourClass").innerHTML=address;
+    console.log(name);
+    console.log(gmail);
+    console.log(symbol);
+    console.log(call);
+    console.log(location);
+    </script>
+</html>

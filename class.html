@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+        .red_box{
+            width: 180px;
+            height: 200px;
+            background-color: red;
+            margin: 10px;
+            display: inline-flex;
+
+            
+    
+        }
+        .green_box{
+            width: 180px;
+            height: 200px;
+            background-color:green;
+            margin: 10px;
+            display: inline-flex;
+        
+        }
+   </style>
+</head>
+<body>
+    <div id="result"></div>
+    <script>
+        for(let x=0;x<10;x++){
+            if(x<5){
+                let rb = "<img src='image/Screenshot (18).png'>";
+                document.getElementById('result').innerHTML += rb;
+            }
+            else{
+                let gb = "<img src='image/Screenshot (18).png'>";
+                    document.getElementById('result').innerHTML += gb;
+            }
+            
+        }
+    </script>
+    
+</body>
+</html>
